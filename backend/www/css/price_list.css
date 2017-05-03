@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic);
+
+.price-list > div{
+    text-align: center;
+    font-family: "Roboto Condensed";
+    vertical-align: text-top;
+}
+
+.list{
+    width: 190mm;
+}
+
+.price-list{
+    display: inline-block;
+    width: 50mm;
+    min-height: 50mm;
+    border: 2px solid #000;
+    margin: 5px;
+}
+
+.seller{
+    background: #dddddd;
+    border-bottom: 1px solid #000;
+}
+
+.product-price{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-name{
+    font-size: 20px;
+    margin: 15px 0;
+    min-height: 20mm;
+}
+.data{
+    text-align: left;
+}
+.data > div{
+    font-size: 12px;
+    width: 20mm;
+    padding-left: 10px;
+    display: inline-block;
+    margin: 10px 0;
+}

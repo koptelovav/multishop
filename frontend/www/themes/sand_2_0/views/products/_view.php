@@ -1,0 +1,1 @@
+<?php $this->renderPartial('//products/_view_template', array('product'=>$product));

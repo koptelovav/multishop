@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /billing/success
+Disallow: /billing/fail
+Disallow: /cart
+Disallow: /cart/add
+Disallow: /css/
+Disallow: /cgi-bin/
+Disallow: /images/
+
+Allow: /
+Sitemap: /sitemap.xml

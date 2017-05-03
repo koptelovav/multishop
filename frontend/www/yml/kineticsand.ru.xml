@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2014-03-19 13:00">
+    <shop>
+        <name>Kinetic Sand</name>
+        <company>BambooGroup</company>
+        <url>http://kineticsand.ru/</url>
+
+        <currencies>
+            <currency id="RUR" rate="1" plus="0"/>
+        </currencies>
+
+        <categories>
+            <category id="1">Кинетический песок</category>
+        </categories>
+
+        <local_delivery_cost>300</local_delivery_cost>
+        <offers>
+            <offer id="28" type="vendor.model" available="true">
+                <url>http://kineticsand.ru/product/kinetic-sand-1kg</url>
+                <price>750</price>
+                <currencyId>RUR</currencyId>
+                <categoryId type="Own">1</categoryId>
+                <delivery>true</delivery>
+                <local_delivery_cost>300</local_delivery_cost>
+                <typePrefix>Кинетический песок</typePrefix>
+                <vendor>Waba Fun</vendor>
+                <model>Кинетический песок 1кг</model>
+                <description>
+                    Кинетический песок является идеальным материалом для лепки. С его помощью можно создать лепнину любой сложности. Поэтому даже трехгодичный ребенок сможет играть с ним. Специально для того, чтобы облегчить малышам игровой процесс и сделать его более захватывающим, существует масса разных формочек, которые помогут создавать идеальные фигурки из сыпучего материала, который обладает свойствами вязкости.
+                </description>
+                <country_of_origin>Швеция</country_of_origin>
+            </offer>
+
+            <offer id="37" type="vendor.model" available="true">
+                <url>http://kineticsand.ru/product/kinetic-sand-5kg</url>
+                <price>2650</price>
+                <currencyId>RUR</currencyId>
+                <categoryId type="Own">1</categoryId>
+                <delivery>true</delivery>
+                <local_delivery_cost>300</local_delivery_cost>
+                <typePrefix>Кинетический песок</typePrefix>
+                <vendor>Waba Fun</vendor>
+                <model>Кинетический песок 5кг</model>
+                <description>
+                    Кинетический песок - это инновационный материал для творчества и игр, учебного и познавательного процесса. С его помощью ребенок будет поглощен увлекательной игрой, в которой он будет воплощать свои фантазии и познавать окружающий мир гибких, эластичных бесформенных объектов. Также его можно использовать в терапевтических целях. Если ребенок неспешно развивается или страдает гиперактивностью, то Kinetic Sand поможет ему научиться концентрироваться, быть сдержанным и спокойным.
+                </description>
+                <country_of_origin>Швеция</country_of_origin>
+            </offer>
+
+            <offer id="61" type="vendor.model" available="true">
+                <url>http://kineticsand.ru/product/inflatable-sandbox</url>
+                <price>730</price>
+                <currencyId>RUR</currencyId>
+                <categoryId type="Own">1</categoryId>
+                <delivery>true</delivery>
+                <local_delivery_cost>300</local_delivery_cost>
+                <typePrefix>Аксессуар</typePrefix>
+                <vendor>Delta Sand</vendor>
+                <model>Надувная песочница для кинетического песка</model>
+                <description>
+                    Отличная надувная песочница. Оснащена крышкой. Подойдет для игры с любыми сыпучими смесями. Размер 80х47х7
+                </description>
+                <country_of_origin>Китай</country_of_origin>
+            </offer>
+
+            <offer id="120" type="vendor.model" available="true">
+                <url>http://kineticsand.ru/product/pressy-castle-molds</url>
+                <price>370</price>
+                <currencyId>RUR</currencyId>
+                <categoryId type="Own">1</categoryId>
+                <delivery>true</delivery>
+                <local_delivery_cost>300</local_delivery_cost>
+                <typePrefix>Аксессуар</typePrefix>
+                <vendor>Delta Sand</vendor>
+                <model>Формочки-прессы для постройки замка</model>
+                <description>
+                    Пресы Castle Molds для строительства замка из Кинетического песка и других смесей для лепки
+                </description>
+                <country_of_origin>Китай</country_of_origin>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>

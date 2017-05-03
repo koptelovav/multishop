@@ -1,0 +1,602 @@
+#callback-form {
+    float: left;
+    width: 500px;
+}
+
+[data-object="cart"].preloader {
+    width: 12px;
+    height: 12px;
+}
+
+a.glyphicon:hover {
+    text-decoration: none;
+}
+
+.hint {
+    font-size: 14px;
+    color: #d1d1d1;
+    font-style: italic;
+}
+
+.news-gallery > a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#muwu-menu {
+    position: relative;
+    background: url(../images/muwu_menu/menu-bg.png) repeat-x;
+    height: 75px;
+    z-index: 1000;
+    border: none;
+    margin-bottom: -15px;
+}
+
+/*#muwu-menu .navbar-brand{
+    width: 255px;
+    background: url(../images/muwu_menu/logo.png) repeat-x;
+    display: inline-block;
+    height: 70px;
+}*/
+
+#muwu-menu li:first-child {
+    margin-left: 0
+}
+
+#muwu-menu li {
+    background: #880000;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#muwu-menu li a {
+    color: #fff !important;
+}
+
+#muwu-menu li.active,
+#muwu-menu li:hover {
+    margin-top: 0;
+}
+
+#muwu-menu li a:hover {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+/*#muwu-menu .cart-info li:first-child{*/
+/*background-image: url(../images/muwu_menu/cart.png);*/
+/*background-position: center;*/
+/*background-repeat: no-repeat;*/
+/*width: 60px;*/
+/*height: 50px;*/
+/*text-align: center;*/
+/*padding-left: 9px;*/
+/*}*/
+
+#muwu-menu li:nth-child(1) {
+    background: #F8B94A;
+}
+
+#muwu-menu li:nth-child(2) {
+    background: #22ba74;
+}
+
+#muwu-menu li:nth-child(3) {
+    background: #07a3d6;
+}
+
+#muwu-menu li:nth-child(4) {
+    background: #F94600;
+}
+
+#faq-accordion .panel-heading {
+    background-color: transparent;
+    border: none;
+}
+
+#faq-accordion h4 a {
+    text-decoration: none;
+}
+
+#equipment {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.date {
+    color: #BBB;
+}
+
+.gift-preview {
+    display: block;
+    background: #fff;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid #F94600;
+    overflow: hidden;
+    padding: 10px;
+    z-index: 10;
+}
+
+.block-content {
+    position: relative;
+}
+
+.gift-label:hover,
+.gift-label {
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #F94600;
+    padding: 3px 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    z-index: 10;
+}
+
+@media (max-width: 767px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    .product-info > div {
+        width: 100% !important;
+    }
+
+    .product-info .text-left {
+        display: none;
+    }
+
+    .gift-preview {
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .gift-label:hover,
+    .gift-label {
+        font-size: 10px;
+        right: 0;
+        top: 0;
+        padding: 0 8px;
+    }
+}
+
+.product-info > div {
+    display: inline-block;
+    width: 49%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+label[for=CartForm_shipping_8],
+label[for=CartForm_shipping_7] {
+    color: red;
+}
+
+.shipping-city-list {
+    position: relative;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.shipping-city-list ul {
+    display: none;
+
+}
+
+.letter {
+    position: absolute;
+    left: -20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.gray {
+    color: #ccc;
+}
+
+.news .item {
+    padding: 5px;
+    border: none;
+}
+
+.news-title {
+    font-size: 20px;
+    color: #444;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.news-date {
+    font-size: 12px;
+    color: #AAA;
+}
+
+.news-description {
+    padding-top: 10px;
+}
+
+.news-title:hover {
+    text-decoration: none;
+}
+
+#video-review,
+#video-review iframe {
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.product-infoblock {
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    #sh_button {
+        display: none !important;
+    }
+}
+
+/* adjust body when menu is open */
+body.slide-active {
+    overflow-x: hidden
+}
+
+/*first child of #page-content so it doesn't shift around*/
+.no-margin-top {
+    margin-top: 0px !important
+}
+
+/*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
+#page-content {
+    position: relative;
+    padding-top: 70px;
+    left: 0;
+}
+
+#page-content.slide-active {
+    padding-top: 0
+}
+
+/* put toggle bars on the left :: not using button */
+#general-nav .navbar-toggle {
+    cursor: pointer;
+    position: relative;
+    line-height: 0;
+    float: left;
+    margin: 0;
+    width: 30px;
+    height: 40px;
+    padding: 10px 0 0 0;
+    border: 0;
+    background: transparent;
+}
+
+/* icon bar prettyup - optional */
+#general-nav .navbar-toggle > .icon-bar {
+    width: 100%;
+    display: block;
+    height: 3px;
+    margin: 5px 0 0 0;
+}
+
+#general-nav .navbar-toggle.slide-active .icon-bar {
+    background: orange
+}
+
+.navbar-header {
+    position: relative
+}
+
+/* un fix the navbar when active so that all the menu items are accessible */
+.navbar.navbar-fixed-top.slide-active {
+    position: relative
+}
+
+/* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
+@media (max-width: 767px) {
+    #general-nav .nav-container {
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    #general-nav .navbar-header {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    #general-nav .navbar.slide-active {
+        position: absolute;
+        width: 65%;
+        top: -1px;
+        z-index: 1000;
+    }
+
+    #general-nav #slidemenu {
+        background: #f7f7f7;
+        left: -100%;
+        width: 65%;
+        min-width: 0;
+        position: absolute;
+        padding-left: 0;
+        z-index: 2;
+        top: -8px;
+        margin: 0;
+        height: 100%;
+    }
+
+    #general-nav #slidemenu .navbar-nav {
+        min-width: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    #general-nav #slidemenu .navbar-nav .dropdown-menu li a {
+        min-width: 0;
+        width: 65%;
+        white-space: normal;
+    }
+
+    #general-nav {
+        border-top: 0
+    }
+
+    #general-nav.navbar-inverse #slidemenu {
+        background: #333
+    }
+
+    /* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
+    #general-nav #navbar-height-col {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 65%;
+        left: -65%;
+        background: #eee;
+    }
+
+    #general-nav .navbar-form {
+        width: 100%;
+        margin: 8px 0;
+        text-align: center;
+        overflow: hidden;
+        /*fast clearfixer*/
+    }
+
+    #general-nav .navbar-form .form-control {
+        text-align: center
+    }
+
+    #general-nav .navbar-form .btn {
+        width: 100%
+    }
+}
+
+@media (min-width: 768px) {
+    #page-content {
+        left: 0 !important
+    }
+
+    .navbar.navbar-fixed-top.slide-active {
+        position: fixed
+    }
+
+    .navbar-header {
+        left: 0 !important
+    }
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.attributes label {
+    line-height: 14px;
+}
+
+.attributes select {
+    max-width: 80%;
+}
+
+.jivo-btn {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: none;
+    cursor: pointer;
+    background-image: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.jivo-btn:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
+}
+
+.jivo-btn.jivo-btn-light:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 20px 10px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 20px 10px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 20px 10px rgba(255, 255, 255, 0.1);
+}
+
+.jivo-btn.jivo-btn-light {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.jivo-btn:active, .jivo-btn.jivo-btn-light:active {
+    box-shadow: 0 1px 0px rgba(255, 255, 255, 0.4), inset 0 0 15px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 0px rgba(255, 255, 255, 0.4), inset 0 0 15px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, 0.4), inset 0 0 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.jivo-btn:active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.jivo-btn-gradient {
+    background-image: url(//static.jivosite.com/button/white_grad_light.png);
+    background-repeat: repeat-x;
+}
+
+.jivo-btn-light.jivo-btn-gradient {
+    background-image: url(//static.jivosite.com/button/white_grad.png);
+}
+
+.jivo-btn-icon {
+    width: 17px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+.jivo-btn-light {
+    color: #fff;
+}
+
+.jivo-btn-dark {
+    color: #222;
+}
+
+.row-striped>.row:nth-of-type(odd){
+    background-color: #f4f4f4;
+}
+
+.item-container.success{
+    display: none;
+}
+
+.swipe-block{
+    position: relative;
+}
+
+.swipe-image{
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    opacity: 0.7;
+}
+
+@media (max-width: 767px) {
+    .breadcrumb{
+        margin-bottom: 0;
+    }
+
+    .breadcrumb i{
+        display: none;
+    }
+
+    .breadcrumb ul li:nth-last-child(3){
+        font-size: 16px;
+    }
+
+    .breadcrumb ul li:nth-last-child(3):before{
+        font-size: 12px;
+        content: 'назад в ';
+        color: rgba(117, 135, 161, 0.60);
+    }
+    .breadcrumb ul li:not(:nth-last-child(3)){
+        display: none;
+    }
+
+    .breadcrumb i[class*="icon"]{
+        display: none;
+    }
+}

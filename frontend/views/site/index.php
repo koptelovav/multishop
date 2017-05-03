@@ -1,0 +1,2 @@
+<?php
+/* CUSTOM SITE PAGE */

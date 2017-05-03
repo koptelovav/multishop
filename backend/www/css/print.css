@@ -1,0 +1,227 @@
+.gtable{
+    width: 1024px;
+    font-size: 12px; font-family: 'san-serif','Courier New';
+    border-collapse: collapse;
+    margin: 0;
+}
+
+
+#products{
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+#products thead td{
+    font-weight: bold;
+    padding: 10px;
+}
+
+#products td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+*{
+    font-weight: bold;
+    font-size: 14px;
+}
+#prf-img{
+    width: 130mm;
+}
+
+#sender-index,
+#recipient1-index,
+#recipient2-index{
+    letter-spacing: 10px
+}
+#cash-on-delivery,
+#sender,
+#recipient1,
+#recipient2,
+#price1,
+#price2,
+#order{
+    font-size: 13px;
+    position: absolute;
+}
+#sender{
+    top: 312px;
+    left: 50px;
+    line-height: 18px;
+}
+
+#sender-passport1 > div,
+#sender-index,
+#sender-city,
+#recipient1-index,
+#recipient1-city,
+#recipient2-index,
+#recipient2-city{
+    display: inline-block;
+}
+
+#sender-address{padding-left: 90px;}
+#sender-street{margin-left: -40px}
+#sender-name{padding-left: 5px;}
+#sender-passport{padding-top: 42px;padding-left: 120px;}
+#sender-passport-name{padding-left: 180px;display:inline-block}
+#sender-passport-number{padding-left: 120px;}
+#sender-passport-number2{padding-left: 26px;}
+#sender-passport-data{padding-left: 42px;}
+#sender-passport-data span{padding-left: 26px;}
+#sender-passport2 {padding-top: 5px;padding-left: 60px;}
+
+#recipient1{
+    top: 230px;
+    left: 93px;
+}
+
+#order{
+    top: 22px;
+    left: 450px;
+}
+
+#recipient2{
+    top: 590px;
+    left: 93px;
+}
+
+#recipient1-name{padding-left: 48px;}
+#recipient1-row-2{padding-left: 48px;}
+#recipient1-address,#recipient1-area{padding-top: 4px;padding-left: 10px}
+
+#recipient2-row-2{padding-left: 48px;}
+#recipient2-name{padding-left: 48px;}
+#recipient2-address{padding-top: 4px;padding-left: 15px}
+
+#price1{
+    top: 190px;
+    left: 230px;
+    width: 160px;
+}
+
+#price2{
+    width: 160px;
+    top: 573px;
+    left: 160px;
+}
+
+#cash-on-delivery{
+    top: 212px;
+    left: 230px;
+    width: 160px;
+}
+
+#entity-contract{
+    font-size: 12px;
+}
+
+#entity-contract .h1{
+    font-size: 16px;
+}
+#entity-contract .h2{
+    font-size: 14px;
+}
+#entity-contract .h2, #entity-contract .h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+#entity-contract .date > div{
+   display: inline-block;
+   width: 49%;
+}
+
+#dels-sender-company,
+#dels-sender-name,
+#dels-sender-phone,
+#dels-sender-city,
+#dels-sender-country,
+#dels-sender-index,
+#dels-sender-address,
+#dels-sender{
+    font-size: 12px;
+    position: absolute;
+}
+
+#dels-sender-company{
+    top: 97px;
+    left: 135px;
+}
+#dels-sender-name{
+    top: 119px;
+    left: 135px;
+}
+#dels-sender-phone{
+    top: 139px;
+    left: 85px;
+}
+#dels-sender-city{
+    top: 157px;
+    left: 85px;
+}
+#dels-sender-country{
+    top: 157px;
+    left: 295px;
+}
+#dels-sender-index{
+    top: 175px;
+    left: 295px;
+}
+#dels-sender-address{
+    top: 193px;
+    left: 85px;
+}
+#dels-sender{
+    top: 426px;
+    left: 135px;
+}
+
+
+#dels-recipient-company,
+#dels-recipient-name,
+#dels-recipient-phone,
+#dels-recipient-city,
+#dels-recipient-country,
+#dels-recipient-index,
+#dels-recipient-address,
+#dels-recipient,
+#dels-delivery-mode{
+    font-size: 12px;
+    position: absolute;
+}
+
+#dels-recipient-name{
+    top: 269px;
+    left: 135px;
+}
+#dels-recipient-phone{
+    top: 289px;
+    left: 85px;
+}
+#dels-recipient-city{
+    top: 307px;
+    left: 85px;
+}
+#dels-recipient-country{
+    top: 307px;
+    left: 295px;
+}
+#dels-recipient-index{
+    top: 175px;
+    left: 295px;
+}
+#dels-recipient-address{
+    top: 343px;
+    left: 85px;
+}
+#dels-recipient{
+    top: 426px;
+    left: 135px;
+}
+
+#dels-delivery-mode{
+    top: 80px;
+    left: 410px;
+}

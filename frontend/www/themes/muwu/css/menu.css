@@ -1,0 +1,331 @@
+.header-bottom{
+    background: #fff;
+}
+
+.header-logo{
+    background: url("../img/logo.png") left center no-repeat;
+    width: 255px;
+    height: 62px;
+    display: block;
+    float: left;
+    padding: 60px;
+    margin-left: 15px;
+}
+
+.navbar-header .header-logo{
+    background: url("../img/logo-small.png") left center no-repeat;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+}
+
+@media (max-width: 480px) {
+    .navbar-header .header-logo{
+        background: url("../img/logo-mini.png") left center no-repeat;
+        margin-top: 10px;
+        width: 100px;
+        height: 50px;
+    }
+}
+
+#general-nav{
+    background: #102747;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+#general-nav ul{
+    padding: 5px 13px 5px;
+}
+
+
+#general-nav li a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+#general-nav li.active a,
+#general-nav li a:hover{
+    background: none;
+}
+
+@media (max-width: 767px){
+    #general-nav {
+        background: #f1f4f7;
+        border-bottom: 1px solid #d2dae3;
+    }
+
+    #general-nav ul{
+        margin-top: 15px !important;
+        padding: 0;
+
+    }
+
+    #general-nav li a{
+        color: #102747;
+    }
+
+    #general-nav li:first-child{
+        margin-left: 0 !important;
+    }
+
+    #general-nav li a:before{
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 1.1em;
+        padding: 0;
+        color: #fe9f38;
+        margin-bottom: 5px;
+    }
+    #general-nav li:first-child{
+        margin: 0 10px;
+    }
+    #general-nav .icon-basket:before{
+        color: #fe9f38;
+        font-size: 36px;
+    }
+    #general-nav .cart-quantity{
+        position: absolute;
+        color: #7587a1;
+        right: 10px;
+        top: 6px;
+    }
+}
+
+@media (min-width: 768px){
+    .visible-mobile{
+        display: none !important;
+    }
+
+    .navbar-header .header-logo{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar-header{
+        text-align: center;
+    }
+
+    .navbar-header .header-logo{
+        display: inline-block;
+        float: none;
+        padding: 0;
+    }
+
+    .header-bottom .header-logo{
+        display: none;
+    }
+}
+
+
+
+#general-nav hr{
+    border-top: 1px solid #DDD;
+}
+
+@media (min-width: 768px){
+    .navbar-brand,
+    #general-nav li:last-child,
+    #general-nav li a:before{
+       display: none;
+    }
+}
+
+@media (max-width: 520px) {
+    #general-nav li a:before{
+        font-size: 24px;
+    }
+
+    #general-nav li:first-child{
+        margin: 0;
+    }
+}
+
+.navbar.top-menu{
+    border: none;
+    border-radius: 0;
+}
+.top-menu ul.navbar-nav{
+    clear: both;
+    float: none;
+    border-top: 1px solid #d2dae3;
+}
+.top-menu:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 12px;
+    background: url("../img/menu-shadow.png") repeat-x left bottom;
+}
+
+.top-menu ul.navbar-nav li ul li a{
+    margin: 10px 20px;
+}
+
+.top-menu ul.navbar-nav > li{
+    padding: 19px 29px 0 28px;
+}
+/*
+.top-menu li ul{
+    position: absolute;
+    z-index: 2;
+    background: #F5F5F5;
+    margin-left: -28px;
+    width: 263px;
+    top: 100%;
+    display: none;
+}
+*/
+/*
+.top-menu li ul:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    display: block;
+    -moz-box-shadow: 0 1px 16px rgba(16,39,71,0.17);
+    -webkit-box-shadow: 0 1px 16px rgba(16,39,71,0.17);
+    box-shadow: 0 1px 16px rgba(16,39,71,0.17);
+}
+
+*/
+.top-menu ul.navbar-nav li ul a span{
+    font: normal 16px/22px "Ubuntu",sans-serif;
+    white-space: nowrap;
+}
+
+
+.top-menu ul.navbar-nav li a span{
+    -moz-transition: 0.1s;
+    -o-transition: 0.1s;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    color: #102747;
+    font: 500 20px/30px "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+
+.top-menu li.active>a,
+.top-menu li.active>a:hover,
+.top-menu li a:hover,
+.top-menu li.active>a:focus,
+.top-menu li a:focus{
+    background: none !important;
+}/*
+.top-menu ul.navbar-nav>li:not(:last-child)>a:before{
+    content: '';
+    position: absolute;
+    right: -29px;
+    top: 50%;
+    margin-top: -8px;
+    height: 16px;
+    width: 1px;
+    background: #d2dae3;
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    z-index: 1;
+}*/
+
+.top-menu li a{
+    padding-top: 0 !important;
+    padding-left: 0 !important;;
+    padding-right: 0 !important;;
+}
+
+.top-menu ul.navbar-nav li ul a:hover span,
+.top-menu li.active > a span,
+.top-menu li a:hover > a span {
+    color: #fe9f38 !important;
+    background: none;
+}
+/*
+.top-menu .li-sub:after{
+    content: '\e816';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 0;
+    color: #102747;
+    font-size: 14px;
+    bottom: 12px;
+}
+*/
+.top-menu .navbar-nav > li:first-child{
+    color: #fff;
+    background: #102747;
+}
+
+.top-menu .navbar-nav > li:first-child > a span{
+    color: #fff !important;
+}
+
+@media (max-width: 767px){
+    .top-menu{
+        display: none;
+    }
+
+}
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .top-menu ul.navbar-nav li a span{
+        font-size: 15px;
+    }
+
+    .top-menu ul.navbar-nav li ul a span{
+        font-size: 12px;
+    }
+
+    .top-menu ul.navbar-nav>li:not(:last-child)>a:before {
+        right: -12px;
+    }
+
+    .top-menu li ul {
+        margin-left: -12px;
+    }
+}
+.li-sub ul{
+
+}
+@media (max-width: 1199px) and (min-width: 992px){
+
+    .top-menu ul.navbar-nav li a span{
+        font-size: 17px;
+    }
+
+    .top-menu ul.navbar-nav li ul a span{
+        font-size: 14px;
+    }
+
+    .top-menu ul.navbar-nav>li:not(:last-child)>a:before {
+        right: -12px;
+    }
+
+    .top-menu li ul {
+        margin-left: -12px;
+        width: 230px;
+        top: 60px;
+    }
+}
+

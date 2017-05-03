@@ -1,0 +1,105 @@
+.rateit {
+    display: block;
+    position: relative;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.rateit .rateit-range
+{
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+    background: url(star.png);
+    height: 35px;
+    outline: none;
+}
+
+.rateit.rateit-mini .rateit-range{
+    background: url(star-mini.png);
+    height: 16px;
+}
+
+.rateit .rateit-range * {
+    display:block;
+}
+
+/* for IE 6 */
+* html .rateit, * html .rateit .rateit-range
+{
+    display: inline;
+}
+
+/* for IE 7 */
+* + html .rateit, * + html .rateit .rateit-range
+{
+    display: inline;
+}
+
+.rateit .rateit-hover, .rateit .rateit-selected
+{
+    position: absolute;
+    left: 0px;
+}
+
+.rateit .rateit-hover-rtl, .rateit .rateit-selected-rtl
+{
+    left: auto;
+    right: 0px;
+}
+
+
+.rateit .rateit-hover
+{
+    background: url(star.png) left -70px;
+}
+
+.rateit.rateit-mini .rateit-hover
+{
+    background: url(star-mini.png) left -32px;
+}
+
+.rateit .rateit-hover-rtl
+{
+    background-position: right -70px;
+}
+
+.rateit.rateit-mini .rateit-hover-rtl
+{
+    background: url(star-mini.png) left -32px;
+}
+
+.rateit .rateit-selected
+{
+    background: url(star.png) left -35px;
+}
+
+.rateit.rateit-mini .rateit-selected
+{
+    background: url(star-mini.png) left -16px;
+}
+
+.rateit .rateit-selected-rtl
+{
+    background-position: right -35px;
+}
+
+.rateit.rateit-mini .rateit-selected-rtl
+{
+    background: url(star-mini.png) left -16px;
+}
+
+.rateit .rateit-preset-rtl
+{
+    background: url(star.png) left -105px;
+}
+
+.rateit.rateit-mini .rateit-preset-rtl
+{
+    background: url(star-mini.png) left -48px;
+}

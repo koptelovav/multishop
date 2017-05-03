@@ -1,0 +1,352 @@
+.navbar{
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.navbar{
+    border: none;
+}
+
+/*************************** MENU ***************************/
+.top-menu--wrap{
+    position: relative;
+    z-index: 20;
+}
+
+.top-menu--dropdown{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 12;
+    background: #fff;
+    top: 10px;
+    overflow: hidden;
+    visibility: hidden;
+    height: 700px;
+    opacity: 0;
+    padding-top: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.top-menu--dropdown--show .top-menu--dropdown{
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+
+
+.top-menu--dropdown .container{
+    height: 540px;
+    position: relative;
+}
+
+.top-menu ul.navbar-nav li ul li a{
+    margin: 10px 20px;
+}
+
+.top-menu ul.navbar-nav li ul a span{
+    font: 600 16px/22px "Ubuntu",sans-serif;
+    white-space: nowrap;
+}
+
+.top-menu ul.navbar-nav li,
+.top-menu ul.navbar-nav li a span{
+    font-weight: 600;
+    -moz-transition: 0.1s;
+    -o-transition: 0.1s;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    color: #fff;
+    font-size: 16px;
+}
+
+.top-menu li.active>a,
+.top-menu li.active>a:hover,
+.top-menu li a:hover,
+.top-menu li.active>a:focus,
+.top-menu li a:focus{
+    background: none !important;
+}
+
+.top-menu li a{
+    cursor: default;
+    padding: 30px 45px;
+}
+
+.top-menu li:first-child a{
+    padding-left: 0 !important;
+}
+
+.top-menu ul.navbar-nav li:hover a span,
+.top-menu ul.navbar-nav li ul a:hover span,
+.top-menu li.active > a span,
+.top-menu li a:hover > a span {
+    color: #fff;
+    background: none;
+}
+
+.top-menu--dropdown--show .top-menu--dropdown{
+    padding-top: 160px;
+}
+
+.top-menu--dropdown--show .top-menu ul.navbar-nav li,
+.top-menu--dropdown--show .top-menu ul.navbar-nav li a span,
+.top-menu--dropdown--show .top-menu ul.navbar-nav li:hover a span,
+.top-menu--dropdown--show .top-menu ul.navbar-nav li ul a:hover span,
+.top-menu--dropdown--show .top-menu li.active > a span,
+.top-menu--dropdown--show .top-menu li a:hover > a span{
+    font-weight: 600;
+    color: #3b4256;
+}
+
+.top-menu--dropdown--show .top-menu--overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    background: #0a0a0b;
+    z-index: 10;
+}
+
+.top-menu--dropdown--show .cart-box a:before,
+.top-menu--dropdown--show .cart-box .cart-quantity,
+.top-menu--dropdown--show .phones.icon-phone:before{
+    color: #3b4256;
+}
+
+.top-menu--dropdown--show .phones,
+.top-menu--dropdown--show .phones a{
+    color: #3b4256;
+}
+
+.top-menu--dropdown--show .header--logo{
+    background: url(../img/logo_red.png) left center no-repeat;
+}
+
+.top-menu--dropdown--show .top-menu--wrap{
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.top-menu--active-line{
+    position: absolute;
+    bottom: -1px;
+    height: 3px;
+    background: #ee3b35;
+    display: block;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.top-menu--dropdown--background{
+    transform: translateX(50%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    width: 990px;
+    height: 500px;
+}
+
+.top-menu--dropdown--close{
+    position: absolute;
+    text-align: center;
+    bottom: 35px;
+    left: 50%;
+    width: 70px;
+    margin-left: -35px;
+    font-size: 14px;
+    color: #3b4256;
+    cursor: pointer;
+    z-index: 25;
+}
+
+/*************************** DROP DOWN SECTION ***************************/
+.dropdown--section{
+    display: none;
+}
+
+.dropdown--section--title{
+    color: #3b4256;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.dropdown--section--link{
+    font-size: 16px;
+    line-height: 20px;
+    color: #1470cc;
+}
+
+.dropdown--section--large-link{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.dropdown--section--list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.dropdown--section--link-title{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.dropdown--section--inside{
+    position: relative;
+    z-index: 21;
+    margin-top: 50px;
+    height: 490px;
+}
+
+/*************************** CATEGORY ***************************/
+
+.category-menu--list{
+    list-style: none;
+    padding: 0;
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+.category-menu--item{
+    min-height: 100px;
+    position: relative;
+    font-size: 13px;
+    width: 250px;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid-column;
+}
+
+.category-menu--item--content--inside{
+    display: block;
+}
+.category-menu--item--title,
+.category-menu--item--desc{
+    display: inline-block;
+}
+
+.category-menu--item--desc{
+    color: #97a4b1;
+    font-size: 12px;
+}
+
+.category-menu--item--content--inside{
+    padding-left: 50px;
+}
+
+.category-menu--item--image{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+/*************************** CONTACT ***************************/
+.contact-menu--item-row{
+    margin-bottom: 30px;
+}
+
+/*************************** PAYMENT SHIPPING ***************************/
+
+.shipping-payment-menu--button-read-more{
+    position: absolute !important;
+    left: 15px;
+    bottom: 50px;
+}
+
+/*************************** NEWS ***************************/
+.news-menu--item{
+    position: relative;
+}
+.news-menu--item--image{
+    vertical-align: top;
+    display: inline-block;
+    width: 29%;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+.news-menu--item--description{
+    display: inline-block;
+    width: 69%;
+}
+
+.news-menu--item--date{
+    display: inline-block;
+    color: #97a4b1;
+}
+
+.news-menu--button-read-all{
+    position: absolute !important;
+    left: 160px;
+    bottom: 70px;
+}
+
+/*************************** ABOUT ***************************/
+.about-menu--section-item{
+    margin-bottom: 24px;
+}
+
+/*************************** MENU BACKGROUND ***************************/
+.about-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/about.jpg) bottom right no-repeat;
+}
+
+.category-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/category.jpg) bottom right no-repeat;
+}
+
+.contact-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/contact.jpg) bottom right no-repeat;
+}
+
+.shipping-payment-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/shipping.jpg) bottom right no-repeat;
+}
+
+.news-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/news.jpg) bottom right no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+/*FOOTER MENU */
+
+.footer-menu{
+    padding: 25px 0;
+    border-bottom: 1px solid #e4ebf1;
+}
+.footer-menu ul{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+}
+
+.footer-menu li{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #1262b2;
+}

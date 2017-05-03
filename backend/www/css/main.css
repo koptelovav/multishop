@@ -1,0 +1,270 @@
+@import "bootstrap-glyphicons.css";
+@import "calendar.css";
+.scroll-box{
+    overflow: scroll;
+    height: 140px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.scroll-box.scroll-box-400{
+    height: 400px;
+}
+
+.scroll-box.scroll-box-500{
+    height: 500px;
+}
+
+.scroll-box label{
+    font-weight: normal;
+}
+
+.scroll-box-category{
+   font-weight: bold;
+}
+
+.scroll-box-category+span {
+    display: block;
+    padding-left: 15px;
+}
+
+.tab-content{
+    padding-top: 20px;
+}
+
+.glyphicon{
+    color: #ccc;
+    font-size: 18px;
+    padding-right: 5px;
+}
+.glyphicon:hover{
+    text-decoration: none;
+    color: #428bca;
+}
+
+.glyphicon.glyphicon-remove:hover{
+    color: #d9534f;
+}
+
+a.grey{
+    color: #999;
+}
+
+.calculate-form{
+    display: inline-block;
+}
+
+.navbar{
+    background: #f17d2b;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-brand,
+.navbar-nav > li > a{
+    color: #fff;
+}
+
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus,
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus{
+    color: #333;
+    background-color: #fff
+}
+
+[data-name=recall]:hover{
+    color: #ccc;
+}
+
+[data-action=remove]:hover,
+[data-action=remove]{
+    color: #3276B1;
+}
+
+.search-form{
+    font-size: 12px;
+}
+.search-form .form-control
+{
+    height: 28px;
+    font-size: 12px;
+}
+
+legend{
+    color: #000;
+    font-weight: bold;
+    font-size: 10pt!important;
+    width: auto!important;
+    border-bottom: none!important;
+    margin-bottom: 0px!important;
+    margin: 0px 0px 0px 5px!important;
+    padding: 0px 5px 0px 5px!important;
+}
+
+fieldset{
+    border: 1px solid #ddd!important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 10px!important;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.dl-horizontal dt {
+    width: 140px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+}
+.dl-horizontal dd {
+    margin-left: 160px;
+}
+
+.order-product-grid{
+    padding: 0;
+}
+
+.order-product-grid thead{
+   display: none;
+}
+
+.order-product-grid tr:first-child td{
+    border-top: none;
+}
+
+.order-product-title{
+    white-space: nowrap;
+    min-width: 230px;
+    display: inline-block;
+    height: 16px;
+}
+
+.order-product-title:hover{
+    background: #e2f6ff;
+}
+
+.record .date{
+    display: inline-block;
+    padding-right: 10px;
+}
+.order-history .description{
+    font-style: italic;
+}
+.order-history .description span{
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.category-view,
+.subcategory-view{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.category-view {
+    background:transparent url(../img/graypixel.png) repeat-y 15px 0;
+    width:380px;
+}
+
+.category-view li {
+    font-size:16px;
+    margin:15px 0 20px;
+    padding:0 0 0 10px;
+}
+
+.category-view li a {
+    background:white;
+    color:#333;
+    display:block;
+    padding:3px;
+}
+.category-view li a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.category-view li a span span{
+    font-size: 8px;
+    vertical-align: super;
+    color: #aaa;
+    text-decoration: none !important;
+}
+.category-view li ul li {
+    background:transparent url(../img/graypixel.png) repeat-x 0 8px;
+    font-size:13px;
+    margin:4px 0 4px 5px;
+    padding:0 0 0 20px;
+}
+
+.category-view li ul li a {
+    padding:0 0 0 3px;
+}
+
+.category-view li ul li ul {
+    background:transparent url(../img/graypixel.png) repeat-y 15px 0;
+    margin-bottom:10px;
+}
+
+.category-view li ul li ul li {
+    margin-left:16px;
+    padding-left:10px;
+}
+
+.table thead>tr>th,
+.table tbody>tr>th,
+.table tfoot>tr>th,
+.table thead>tr>td,
+.table tbody>tr>td,
+.table tfoot>tr>td {
+    padding: 4px;
+}
+
+.gray{
+    color: #9b9b9b;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.ui-corner-all{
+    font-size: 10px;
+}
+
+tr.disabled{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background: #dfdfdf;
+}
+
+.composition-product td:first-child {
+    background: #ccc;
+    content: '|';
+    border-left: 3px solid #000;
+    font-size: 50px;
+}
+
+#file-form .hidden-info{
+    background: #fff;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+}
+
+#file-form .item img{
+    border: 5px solid;
+    border-color: #fff;
+}
+
+#file-form .item{
+    display: inline-block;
+}

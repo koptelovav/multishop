@@ -1,0 +1,148 @@
+.navbar-nav{
+    float: none !important;
+}
+
+.navbar-moby a{
+
+}
+
+.navbar-nav>li>a {
+    height: 175px;
+    color: #fff;
+    text-align: center;
+    font-size: 130px;
+    line-height: 130px;
+}
+
+.navbar-nav>li {
+
+    padding: 10px 0;
+    border-right: 1px solid #ededed;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+.navbar-nav>li:nth-child(1){
+    background: #00a0e8;
+    text-shadow: 1px 1px 0 #0082c3;
+}
+
+.navbar-nav>li:nth-child(2){
+    background: #f94600;
+    text-shadow: 1px 1px 0 #D43C00;
+}
+.navbar-nav>li:nth-child(3){
+    background: #a1d600;
+    text-shadow: 1px 1px 0 #89B600;
+}
+
+.grid-view{
+    font-size: 30px;
+    padding: 0;
+}
+
+.grid-view tbody tr{
+    height: 200px;
+    user-select: none;
+}
+
+.grid-view tbody tr:nth-child(odd){
+    background-color: #ededed;
+}
+
+.icon-eye-view{
+    font-size: 120px !important;
+}
+
+.tag-view [class^="icon-"]{
+    font-size: 30px;
+}
+.pagination{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination .page,
+.pagination .last,
+.pagination .first{
+    display: none;
+}
+
+.pagination .previous,
+.pagination .last{
+    width: 49%;
+}
+
+.pagination>li {
+    width: 49%;
+    display: inline-block;
+}
+.pagination span,
+.pagination a,
+.pagination a:hover,
+.pagination a:focus{
+    color: #fff !important;
+    font-size: 180px !important;
+    display: block;
+    width: 100%;
+    border: none !important;
+    background-color: #a1d600 !important;
+    height: 160px !important;
+    line-height: 120px !important;
+}
+.pagination>.disabled>span, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+    background-color: #f94600 !important;
+}
+.view{
+    font-size: 40px;
+}
+.order-menu a{
+    color: #333;
+    text-shadow: 1px 1px #ffffff;
+    font-size: 90px;
+}
+
+.order-menu li{
+    border-bottom: 1px solid #ededed;
+    padding: 10px 0;
+}
+
+.order-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.order-menu{
+    background-color: #dadada;
+    display: none;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+}
+
+#overlay{
+    display: none;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.overlay{
+    overflow: hidden;
+}
+
+.view [class^="icon-"], .view [class*=" icon-"]{
+    font-size: 100px !important;
+}

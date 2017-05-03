@@ -1,0 +1,334 @@
+.menu--show{
+    position: fixed;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus{
+    background: transparent;
+}
+
+.header-navbar .navbar-nav>li{
+    float: none;
+    margin-top: 18px;
+}
+.header-navbar .navbar-nav>li>a{
+    color: #1262b2;
+    font-size: 16px;
+    padding: 0;
+}
+
+.header-navbar .navbar-nav>li>a:hover,
+.header-navbar .navbar-nav>li>a:focus{
+    color: #1a8cff;
+}
+.header-fixed--content.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 161;
+}
+
+.header--menu--top{
+    border-bottom: 1px solid #dbe2e7;
+}
+.header-menu--line,
+.header-menu:before,
+.header-menu:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+}
+
+.header-menu:before,
+.header-menu:after{
+    content: "";
+}
+
+.header-menu--line{top: 8px}
+.header-menu:before{top: 0}
+.header-menu:after{bottom: 0}
+
+
+.header--menu--close{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 20px;
+    left: 20px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.header--menu--close:before {
+    width: 2px;
+    height: 18px;
+    left: 8px;
+    top: 0;
+}
+
+.header--menu--close:after {
+    height: 2px;
+    width: 18px;
+    top: 8px;
+    left: 0;
+}
+
+.header--menu--close:before,
+.header--menu--close:after {
+    content: "";
+    background: #5f80ac;
+    position: absolute;
+}
+
+.header-menu{
+    width: 22px;
+    height: 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 0;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 12;
+}
+
+.header--menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 160;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.header--menu--show {
+    visibility: visible;
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+
+.header--menu--navigation{
+
+}
+
+.header--menu--content{
+    /*overflow: hidden;*/
+    padding: 25px 20px 0;
+}
+
+.header--menu--content-item{
+    border-bottom: 1px solid #dbe2e7;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.header--menu--content-item{
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-right: -20px;
+    padding-right: 20px;
+}
+
+.header--menu--group-title{
+    font-size: 11px;
+    font-weight: 600;
+    color: #97a4b1;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+/*************************** DROP DOWN SECTION ***************************/
+.dropdown--section{
+    display: none;
+}
+
+.dropdown--section--title{
+    color: #3b4256;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.dropdown--section--link{
+    font-size: 16px;
+    line-height: 20px;
+    color: #1470cc;
+}
+
+.dropdown--section--large-link{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.dropdown--section--list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.dropdown--section--link-title{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.dropdown--section--inside{
+    position: relative;
+    z-index: 21;
+    margin-top: 50px;
+    height: 490px;
+}
+
+/*************************** CATEGORY ***************************/
+
+.category-menu--list{
+    list-style: none;
+    padding: 0;
+    margin-top: 18px;
+}
+
+.category-menu--item{
+    min-height: 100px;
+    position: relative;
+    font-size: 13px;
+    width: 250px;
+}
+
+.category-menu--item--content--inside{
+    display: block;
+}
+.category-menu--item--title,
+.category-menu--item--desc{
+    display: inline-block;
+}
+
+.category-menu--item--desc{
+    color: #97a4b1;
+    font-size: 12px;
+}
+
+.category-menu--item--content--inside{
+    padding-left: 50px;
+}
+
+.category-menu--item--image{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+/*************************** CONTACT ***************************/
+.contact-menu--item-row{
+    margin-bottom: 30px;
+}
+
+/*************************** PAYMENT SHIPPING ***************************/
+
+.shipping-payment-menu--button-read-more{
+    position: absolute !important;
+    left: 15px;
+    bottom: 50px;
+}
+
+/*************************** NEWS ***************************/
+.news-menu--item{
+    position: relative;
+}
+.news-menu--item--image{
+    vertical-align: top;
+    display: inline-block;
+    width: 29%;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+.news-menu--item--description{
+    display: inline-block;
+    width: 69%;
+}
+
+.news-menu--item--date{
+    display: inline-block;
+    color: #97a4b1;
+}
+
+.news-menu--button-read-all{
+    position: absolute !important;
+    left: 160px;
+    bottom: 70px;
+}
+
+/*************************** ABOUT ***************************/
+.about-menu--section-item{
+    margin-bottom: 24px;
+}
+
+/*************************** MENU BACKGROUND ***************************/
+.about-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/about.jpg) bottom right no-repeat;
+}
+
+.category-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/category.jpg) bottom right no-repeat;
+}
+
+.contact-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/contact.jpg) bottom right no-repeat;
+}
+
+.shipping-payment-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/shipping.jpg) bottom right no-repeat;
+}
+
+.news-menu--section .top-menu--dropdown--background{
+    background: url(../img/menu/news.jpg) bottom right no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+/*FOOTER MENU */
+
+.footer-menu{
+    padding: 25px 0;
+    border-bottom: 1px solid #e4ebf1;
+}
+.footer-menu ul{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+}
+
+.footer-menu li{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #1262b2;
+}

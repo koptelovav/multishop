@@ -1,0 +1,31 @@
+<nav id="muwu-menu" class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <?php $this->widget('zii.widgets.CMenu', array(
+            'items' => array(
+                array('label' => 'Му-Ву!', 'url' =>  SHtml::crossDomainLink('http://muwu.ru')),
+                array('label' => 'Kinetic Sand', 'url' => SHtml::crossDomainLink('http://kineticsand.ru')),
+                array('label' => 'Bubber', 'url' =>  SHtml::crossDomainLink('http://bubber.ru')),
+                array('label' => 'SuperStructs', 'url' =>  SHtml::crossDomainLink('http://superstructs.ru')),
+                array('label' => 'Magformers', 'url' =>  SHtml::crossDomainLink('http://mymagformers.ru'))
+            ),
+            'encodeLabel' => false,
+            'htmlOptions' => array(
+                'class' => 'shop-menu nav navbar-nav'
+            )
+        )); ?>
+        <div class="cart-info">
+            <?php $this->widget('zii.widgets.CMenu', array(
+                'items' => array(
+                    array('label' => Cart::countHtml(), 'url' => array('/cart/index')),
+                    array('label' => Cart::totalHtml(), 'url' => array('/cart/index')),
+                    array('label' => 'Корзина', 'url' => array('/cart/index')),
+                ),
+                'activeCssClass' => '',
+                'encodeLabel' => false,
+                'htmlOptions' => array(
+                    'class' => ' nav navbar-nav navbar-right'
+                )
+            )); ?>
+        </div>
+    </div>
+</nav>

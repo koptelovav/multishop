@@ -1,0 +1,48 @@
+#menu{
+    background: #d6d6d6;
+}
+
+#menu > a{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #cecece;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+@media print{
+    #menu{
+        display: none !important;
+    }
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+#invoice{
+    margin: 15px;
+}
+table{
+    width: 780px;
+    border-collapse: collapse;
+}
+#invoice_body td,
+.amount td.number,
+.invoice_preview_items thead td,
+.invoice_preview_account td {
+    border: 1px solid #ccc;
+    padding: 3px;
+    vertical-align: bottom;
+}
+
+.amount{
+    text-align: right;
+}
+
+.amount td:first-child{
+    padding-right: 10px;
+}
